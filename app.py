@@ -166,7 +166,7 @@ st.warning("""
 st.markdown("### 📂 Project Repository")
 st.markdown(
     "All source files and documentation are available on GitHub:\n\n"
-    "[🔗 View Project on GitHub](https://github.com/almaqbalim/bike-share-dashboard)"
+    "[View Project on GitHub](https://github.com/almaqbalim/bike-share-dashboard)"
 )
 
 # ─────────────────────────────────────
