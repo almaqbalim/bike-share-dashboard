@@ -25,8 +25,7 @@ user_colors = {
 
 @st.cache_data
 def load_data():
-    url = "https://huggingface.co/datasets/almaqbalim/BikeShare/resolve/main/dataset.csv"
-    df = pd.read_csv(url)
+    df = pd.read_csv("https://huggingface.co/datasets/almaqbalim/BikeShare/resolve/main/dataset.csv")
     df['started_at'] = pd.to_datetime(df['started_at'])
     df['ended_at'] = pd.to_datetime(df['ended_at'])
     df['ride_length'] = (df['ended_at'] - df['started_at']
