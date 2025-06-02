@@ -46,7 +46,7 @@ This interactive dashboard was built using **Python**, **Pandas**, **Matplotlib*
 
 ## 🌐 Live Demo
 
-You can explore the interactive dashboard by launching the app locally or deploying it on [Streamlit Cloud](https://streamlit.io/).
+You can explore the  dashboard by launching the app .
 
 ```bash
 streamlit run app.py
