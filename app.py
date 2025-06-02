@@ -41,14 +41,9 @@ df = load_data()
 # ─────────────────────────────────────
 # 📘 Header
 # ─────────────────────────────────────
-col1, col2 = st.columns([1, 6])
-with col1:
-    logo_path = "logo.jpg"
-    if os.path.exists(logo_path):
-        st.image(logo_path, width=90)
-with col2:
-    st.title("🚲 Cyclistic Bike-Share Report")
-    st.markdown("**Prepared by Mohammed Almaqbali**")
+
+st.title("🚲 Cyclistic Bike-Share Report")
+st.markdown("**Prepared by Mohammed Almaqbali**")
 
 st.markdown("---")
 
